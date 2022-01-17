@@ -515,11 +515,7 @@ footer strong {
   display: flex;
   flex-direction: row;
 }
-#footer .social ul li {
-	display: flex;
-  
 
-}
 #footer .social i.fa {
 	font-size: 7vw;
 	padding: 4px;
@@ -622,5 +618,15 @@ footer strong {
 
 
   footer {text-align: center;}
+
+  .social ul{
+    display: block;
+  }
+  #footer .social i.fa {
+    font-size: 20vw;
+    padding: 10vw;
+    color: white;
+    transition: all 0.3s;
+  }
 
 }
