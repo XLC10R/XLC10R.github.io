@@ -503,6 +503,39 @@ footer strong {
   color: #ffffff;
 }
 
+/* Footer Section*/
+#footer {
+
+	padding: 40px 0 0px 0;
+}
+#footer .social {
+	margin-top: -5px;
+
+}
+#footer .social ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+#footer .social i.fa {
+	font-size: 24px;
+	padding: 4px;
+	color: white;
+	transition: all 0.3s;
+}
+#footer .social i.fa:hover {
+	color: #eee;
+}
+#footer p {
+	font-size: 14px;
+	color: white;
+}
+#footer a {
+	color: white;
+}
+#footer a:hover {
+	color: #eee;
+}
+
 
 
 /* Mobile Responsive */
