@@ -179,7 +179,7 @@ a:focus {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100vh;
+  height: 92vh;
 }
 #home .gradient-overlay {
   background: black; /* fallback for old browsers */  
@@ -232,7 +232,7 @@ section.roadmap .box.right:after{content:'after';width:70px;height:3px;backgroun
   section.roadmap .box.left.fourth{top:24px !important}}
   
   section.roadmap span.heading{font-family: Arial, Helvetica !important;font-size:20px;top:-4px}
-section.roadmap .green{color:#09d8ba}
+section.roadmap .green{color:rgb(72, 9, 172);}
 section.roadmap .dots{width:50% !important}
 section.roadmap .dots.pull-right{margin-right:50px !important}
 section.roadmap .dots.pull-right span{position:relative;right:-50px !important}
@@ -251,11 +251,42 @@ section.roadmap .milestones span{font-family: Arial, Helvetica !important;}
     section.roadmap .lines.fourth{top:93px}
     section.roadmap .roadmap-line{background:#ccc;width:7px;height:70px;position:relative;margin-top:40px}section.roadmap .roadmap-line.higher{height:135px}
     section.roadmap .roadmap-line:after{content:"";width:200px;width:20px;height:20px;border-radius:50%;position:absolute;top:-30px;left:-6px;color:#fff;text-align:center;z-index:2}
-    section.roadmap .roadmap-line.active{background:#0be6d0!important}
-    section.roadmap .roadmap-line.active:after{background:#0be6d0!important}
+    section.roadmap .roadmap-line.active{background:rgb(72, 9, 172)!important}
+    section.roadmap .roadmap-line.active:after{background:rgb(72, 9, 172)!important}
     section.roadmap .roadmap-line:after{background:#ccc!important}
 }
 
+.hash{
+  display: flex;
+  flex-direction: row;
+  margin-left: 7vw;
+  padding-top: 1vw;
+
+}
+
+#link {
+
+  border: 3px solid rgb(72, 9, 172);
+  border-right: none;
+  padding: 5px;
+
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: rgb(72, 9, 172);
+}
+
+.copie{
+  padding-top: 0.6vw;
+}
+
+.psale{
+  padding-left: 40vw;
+  
+}
+
+.adj{
+  margin-top: -5vw;
+}
 
 /* Navigation section */
 .navbar-default {
@@ -476,7 +507,7 @@ section.roadmap .milestones span{font-family: Arial, Helvetica !important;}
 #contact input[type='submit'] {
   background: #ffffff;
   border-radius: 4px;
-  color: #0024c2;
+  color: rgb(72, 9, 172);
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -485,7 +516,7 @@ section.roadmap .milestones span{font-family: Arial, Helvetica !important;}
   transition: all 0.4s ease-in-out;
 }
 #contact input[type='submit']:hover {
-  background-color: #c21500;
+  background-color: rgb(72, 9, 172);
   border-color: transparent;
   color: #ffffff;
 }
@@ -631,6 +662,26 @@ a.up:hover::after {
   .left_col{
     margin-left: 0;
   }
+
+  .hash{
+    margin-left: 33vw;
+    padding-top: 1.5vw;
+  }
+
+  .copie{
+    padding-top: 2vw;
+  }
+
+  .psale{
+    padding-left: 0vw;
+    
+  }
+
+  .adj{
+    margin-top: -15vw;
+  }
+  
+  
 }
 
 
