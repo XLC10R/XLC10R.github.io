@@ -681,7 +681,9 @@ a.up:hover::after {
     margin-top: -15vw;
   }
   
-  
+  .teamm{
+    padding-top: 10vw;
+  }
 }
 
 
