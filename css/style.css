@@ -638,6 +638,10 @@ a.up:hover::after {
 
   h1 {font-size: 70px;}
 
+  .social-icon li a {
+    font-size: 15vw;
+  }
+
 }
 
 
