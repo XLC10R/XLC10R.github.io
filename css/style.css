@@ -292,6 +292,12 @@ section.roadmap .milestones span{font-family: Arial, Helvetica !important;}
   margin-top: 20px;
 }
 
+.img-thmb{
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+
 /* Navigation section */
 .navbar-default {
     background: #ffffff;
